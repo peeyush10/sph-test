@@ -1,0 +1,20 @@
+uuid: 15132dd1-6ea2-4d19-a6e1-32b3f2016534
+langcode: en
+status: true
+dependencies:
+  module:
+    - qr_scanner_block
+  theme:
+    - olivero
+id: scanhereonyourmobile
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: qr_scanner_block
+settings:
+  id: qr_scanner_block
+  label: 'Scan here on your mobile'
+  label_display: visible
+  provider: qr_scanner_block
+visibility: {  }
