@@ -22,7 +22,11 @@ Instead, to propose a change, please fork [pantheon-systems/drupal-composer-mana
 and submit a PR to that repository.
 
 ## Installation process to enable QR block
+
 Merge the files
+
 Run composer install
+
 Run drush deploy 
+
 
