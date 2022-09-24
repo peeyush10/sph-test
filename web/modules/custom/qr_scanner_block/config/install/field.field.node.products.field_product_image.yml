@@ -1,4 +1,4 @@
-uuid: 671ad067-4dbe-4495-9525-c8ce51d84824
+uuid: 568575f6-bb78-46a0-b511-47edc84cba6e
 langcode: en
 status: true
 dependencies:
@@ -11,15 +11,13 @@ id: node.products.field_product_image
 field_name: field_product_image
 entity_type: node
 bundle: products
-label: 'Product Image'
+label: 'Product image'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:file'
-  handler_settings: {  }
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
@@ -35,4 +33,6 @@ settings:
     title: ''
     width: null
     height: null
+  handler: 'default:file'
+  handler_settings: {  }
 field_type: image
